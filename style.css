@@ -10,22 +10,31 @@ body{
     align-items: center;
     justify-content: center;
     padding: 0 50px;
+    background: linear-gradient(rgb(150, 198, 218), #1c81af);
 }
 
 
 video{
-    max-width: calc(50% - 100px);
+    max-width: calc(100vw - 80%);
+    /*width: 200px;*/
     margin: 0 50px;
     box-sizing: border-box;
-    border-radius: 2px;
+    border-radius: 10px;
     padding: 0;
-    border:1px solid #ccc;
+    border: 3px solid #fff;
 }
 
 .title{
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
     position: fixed;
     top: 10px;
     left: 50%;
     transform:translate(-50%,0);
     font-size: 30px;
+}
+
+h3{
+    color: #fff;
 }
