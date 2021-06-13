@@ -5,7 +5,7 @@ if(!location.hash){
 
 const roomHash = location.hash.substring(1);
 
-const drone = new ScaleDrone('yiS12Ts5RdNhebyM');
+const drone = new ScaleDrone('q5OWEh7wi47XcTLN');
 
 const roomName = 'observable-'+roomHash;
 
